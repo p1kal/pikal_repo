@@ -3,6 +3,7 @@
 
 ## Repository
 <Link to your project's public GitHub respository>
+https://github.com/p1kal/pikal_repo.git 
 
 ## Description
 the basic framework for a tile based dungeon builder game i might make. likely a terrible idea
@@ -26,21 +27,21 @@ the basic framework for a tile based dungeon builder game i might make. likely a
 - pawn movment and pathfinding
   - for valid adjacent location values, asign values based on known map, then gen rnd num to decide which direction
 - pawn death on health <= 0
-  -little text bit depending on which tile killed
+  - little text bit depending on which tile killed
 - the actual board
   - input board size x by y, make a gird of x+1 by y+1, set outer primter to uninteractable
   - set spawn tile to location value middle of far left(excluding uninteractable border) with math
 -  game phases
-  - lots of if loops that everthing else gets run through
+    - lots of if loops that everthing else gets run through  
 - end or continue prompt
   - prompt to end the game or do next round at final phase end
 - boss tile
-  -has a health value, dies if it takes to much damage from pawns, if dead trigger game over. placed at game start
+  - has a health value, dies if it takes to much damage from pawns, if dead trigger game over. placed at game start
 - graphics framework with placeholder assets
   - will need to be implemented into all steps i think?
 -  pawns flee if health gets too low
-  - change point values in pathfinding to hevaily prioritze tiles toward entrance/exit.
-  - pawn despawns if leaves map, update base map 
+    - change point values in pathfinding to hevaily prioritze tiles toward entrance/exit.
+    - pawn despawns if leaves map, update base map 
     
 ## Challenges
 - previous attempts at brute forcing a deck have failed, reaserch required
